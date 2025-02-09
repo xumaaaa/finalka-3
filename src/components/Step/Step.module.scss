@@ -1,0 +1,25 @@
+.block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+
+  .box {
+    border-radius: 50%;
+    background: linear-gradient(
+      135deg,
+      rgba(255, 255, 255, 0.1) 0%,
+      rgba(255, 255, 255, 0.05) 100%
+    );
+
+    .img {
+      padding: 29px;
+    }
+  }
+
+  .text {
+    font-size: 24px;
+    text-transform: capitalize;
+  }
+}

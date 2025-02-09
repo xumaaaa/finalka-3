@@ -1,0 +1,45 @@
+.accessories {
+  max-width: 1110px;
+  width: 100%;
+  margin: 44px auto;
+
+  .title {
+    font-weight: 600;
+    font-size: 20px;
+    color: #838383;
+    margin-bottom: 20px;
+    margin-top: 50px;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+}
+.admin {
+  .link {
+    max-width: 200px;
+    margin: 0 auto;
+    display: block;
+    text-decoration: none;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 0 rgba(67, 216, 84, 0.25);
+    background: #101010;
+    padding: 13px;
+    font-weight: 500;
+    font-size: 15px;
+    text-align: center;
+    color: #fff;
+    transition: 0.5s;
+    cursor: pointer;
+
+    &:hover {
+      box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+      background: #fff;
+      color: #101010;
+    }
+  }
+}

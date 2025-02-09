@@ -1,0 +1,224 @@
+{
+  "walletCard": [
+    {
+      "id": 1,
+      "src": "/chanel.png",
+      "alt": "chanel",
+      "text": "Chanel"
+    },
+    {
+      "id": 2,
+      "src": "/gucci.png",
+      "alt": "gucci",
+      "text": "Gucci"
+    },
+    {
+      "id": 3,
+      "src": "/Gritti.webp",
+      "alt": "gritti",
+      "text": "Gritti"
+    },
+    {
+      "id": 4,
+      "src": "/Memo.webp",
+      "alt": "memo",
+      "text": "Memo"
+    },
+    {
+      "id": 5,
+      "src": "/Hermes.webp",
+      "alt": "hermer",
+      "text": "Hermer"
+    },
+    {
+      "id": 6,
+      "src": "/Begim.webp",
+      "alt": "Begim",
+      "text": "Begim"
+    },
+    {
+      "id": 7,
+      "src": "/Chloe.webp",
+      "alt": "chloe",
+      "text": "Chloe"
+    },
+    {
+      "id": 8,
+      "src": "/Hugo.svg",
+      "alt": "hugo",
+      "text": "Hugo"
+    },
+    {
+      "id": 9,
+      "src": "/Versace.jpg",
+      "alt": "versace",
+      "text": "Versace"
+    }
+  ],
+  "step": [
+    {
+      "id": 1,
+      "src": "/wallet.svg",
+      "alt": "wallet",
+      "text": "Set up your wallet"
+    },
+    {
+      "id": 2,
+      "src": "/collection.svg",
+      "alt": "collection",
+      "text": "Create your collection"
+    },
+    {
+      "id": 3,
+      "src": "/nfts.svg",
+      "alt": "nfts",
+      "text": "Add your NFTs"
+    },
+    {
+      "id": 4,
+      "src": "/sale.svg",
+      "alt": "sale",
+      "text": "List them for sale"
+    }
+  ],
+  "ourCollection": [
+    {
+      "id": 1,
+      "src": "/collection1.png",
+      "alt": "collection1"
+    },
+    {
+      "id": 2,
+      "src": "/collection2.png",
+      "alt": "broken"
+    },
+    {
+      "id": 3,
+      "src": "/collection3.png",
+      "alt": "collection3"
+    },
+    {
+      "id": 4,
+      "src": "/collection4.png",
+      "alt": "collection4"
+    },
+    {
+      "id": 5,
+      "src": "/collection5.png",
+      "alt": "collection5"
+    },
+    {
+      "id": 6,
+      "src": "/collection6.png",
+      "alt": "collection6"
+    },
+    {
+      "id": 7,
+      "src": "/collection7.png",
+      "alt": "collection7"
+    },
+    {
+      "id": 8,
+      "src": "/collection1.png",
+      "alt": "collection1"
+    },
+    {
+      "id": 9,
+      "src": "/collection2.png",
+      "alt": "collection2"
+    }
+  ],
+  "HomeSwiper": [
+    {
+      "id": 1,
+      "img": "slide1",
+      "src": "./Banner1.webp",
+      "alt": "slide1"
+    },
+    {
+      "id": 2,
+      "img": "slide2",
+      "src": "./Banner2.webp",
+      "alt": "slide2"
+    },
+    {
+      "id": 3,
+      "img": "slide3",
+      "src": "./Banner3.webp",
+      "alt": "slide3"
+    },
+    {
+      "id": 4,
+      "img": "slide4",
+      "src": "./Banner14.webp",
+      "alt": "slide4"
+    },
+    {
+      "id": 5,
+      "img": "slide1",
+      "src": "./Banner1.webp",
+      "alt": "slide1"
+    },
+    {
+      "id": 6,
+      "img": "slide2",
+      "src": "./Banner2.webp",
+      "alt": "slide2"
+    },
+    {
+      "id": 7,
+      "img": "slide3",
+      "src": "./Banner3.webp",
+      "alt": "slide3"
+    },
+    {
+      "id": 8,
+      "img": "slide4",
+      "src": "./Banner14.webp",
+      "alt": "slide4"
+    }
+  ],
+  "admin": {
+    "username": "admin",
+    "password": "777777"
+  },
+  "users": {},
+  "parfume": [
+    {
+      "id": 1,
+      "src": "https://parfumgallery.uz/_next/image?url=https%3A%2F%2Fspaces.parfumgallery.uz%2Fimages%2Fproducts%2F62d866e9c77ac3cc706b8c5ad7d37f2e.webp&w=384&q=75",
+      "title": "Parfume12345",
+      "price": "10$12345"
+    },
+    {
+      "id": 2,
+      "src": "/parfume2.jpg",
+      "title": "Parfume",
+      "price": "20$"
+    },
+    {
+      "id": 3,
+      "src": "/parfume3.jpg",
+      "title": "Parfume",
+      "price": "30$"
+    },
+    {
+      "id": 4,
+      "src": "/parfume1.jpg",
+      "title": "Parfume",
+      "price": "40$"
+    },
+    {
+      "id": 5,
+      "src": "/parfume2.jpg",
+      "title": "Parfume",
+      "price": "50$"
+    },
+    {
+      "id": 6,
+      "src": "/parfume3.jpg",
+      "title": "Parfume",
+      "price": "60$"
+    }
+  ]
+}

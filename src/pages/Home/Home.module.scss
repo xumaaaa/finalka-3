@@ -1,0 +1,106 @@
+.header {
+  max-width: 1677px;
+  width: 100%;
+  margin: 100px auto 0;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 30px;
+
+  .container_1 {
+    max-width: 728px;
+    width: 100%;
+
+    .title {
+      font-weight: 600;
+      font-size: 64px;
+      margin-bottom: 40px;
+    }
+
+    .subtitle {
+      font-family: var(--second-family);
+      font-weight: 300;
+      font-size: 25px;
+      text-transform: capitalize;
+      margin-bottom: 120px;
+    }
+
+    .block {
+      display: flex;
+      justify-content: space-between;
+      gap: 30px;
+      max-width: 524px;
+      width: 100%;
+
+      .btn_1 {
+        padding: 21px 43px;
+        background: #ad1aaf;
+        font-weight: 500;
+        font-size: 22px;
+        border: 1px solid #ad1aaf;
+        transition: 0.5s;
+        cursor: pointer;
+
+        &:hover {
+          background: transparent;
+        }
+      }
+
+      .btn_2 {
+        border: 1px solid #ad1aaf;
+        padding: 21px 73px;
+        background: rgba(173, 26, 175, 0.05);
+        font-weight: 500;
+        font-size: 22px;
+        transition: 0.5s;
+        cursor: pointer;
+
+        &:hover {
+          background: #ad1aaf;
+        }
+      }
+    }
+  }
+
+  .container_2 {
+    max-width: 709px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    .block {
+      border-bottom: 2.5px solid rgba(255, 255, 255, 0.4);
+      border-top: 2.5px solid rgba(255, 255, 255, 0.4);
+      border-radius: 42px;
+      padding: 20px 16px;
+      // backdrop-filter: blur(35.83000183105469px);
+      background: linear-gradient(
+        136deg,
+        rgba(255, 255, 255, 0.1) 0%,
+        rgba(255, 255, 255, 0.05) 100%
+      );
+
+      .img {
+        width: 100%;
+        margin-bottom: 16px;
+        border-bottom: 2.5px solid #8c30f5;
+        border-radius: 42px;
+        backdrop-filter: blur(20.833332061767578px);
+      }
+
+      .subtitle {
+        font-weight: 500;
+        font-size: 25px;
+        text-transform: capitalize;
+        margin-bottom: 8px;
+      }
+
+      .text {
+        font-weight: 500;
+        font-size: 17px;
+      }
+    }
+  }
+}

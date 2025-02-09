@@ -1,0 +1,36 @@
+.wallets {
+  max-width: 1600px;
+  width: 100%;
+  margin: 174px auto 250px;
+  text-align: center;
+
+  .subtitle {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 25px;
+    text-transform: capitalize;
+    background: linear-gradient(130deg, #fff 0%, #f81dfb 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .title {
+    font-weight: 500;
+    font-size: clamp(3.125rem, 2.215rem + 4.55vw, 6.25rem);
+    text-transform: capitalize;
+    margin: 45px 0 100px;
+  }
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+
+    @media (max-width: 1480px) {
+      justify-content: center;
+    }
+  }
+}

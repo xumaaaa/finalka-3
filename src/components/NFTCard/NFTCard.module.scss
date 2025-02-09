@@ -1,0 +1,33 @@
+.NFTCard {
+  border-bottom: 2.5px solid rgba(255, 255, 255, 0.4);
+  border-top: 2.5px solid rgba(255, 255, 255, 0.4);
+  border-radius: 42px;
+  padding: 20px 16px;
+  backdrop-filter: blur(35px);
+  background: linear-gradient(
+    136deg,
+    rgba(255, 255, 255, 0.1) 0%,
+    rgba(255, 255, 255, 0.05) 100%
+  );
+  position: absolute;
+
+  .img {
+    width: 100%;
+    margin-bottom: 16px;
+    border-bottom: 2.5px solid #8c30f5;
+    border-radius: 42px;
+    backdrop-filter: blur(20px);
+  }
+
+  .subtitle {
+    font-weight: 500;
+    font-size: 25px;
+    text-transform: capitalize;
+    margin-bottom: 8px;
+  }
+
+  .text {
+    font-weight: 500;
+    font-size: 17px;
+  }
+}

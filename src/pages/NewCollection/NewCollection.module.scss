@@ -1,0 +1,50 @@
+.newCollection {
+  max-width: 1000px;
+  width: 100%;
+  margin: 100px auto 0;
+
+  .title {
+    text-align: center;
+    font-size: clamp(3.125rem, 2.215rem + 4.55vw, 6.25rem);
+    color: var(--white);
+    text-decoration: none;
+    transition: 0.5s;
+    margin-bottom: 45px;
+  }
+
+  .form {
+    max-width: 700px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    .inp {
+      background-color: transparent;
+      width: 100%;
+      outline: none;
+      font-family: var(--second-family);
+      font-weight: 300;
+      font-size: 20px;
+      border: 1px solid rgba(167, 167, 167, 0.4);
+      border-radius: 15px;
+      padding: 20px 38px 20px;
+    }
+
+    .btn {
+      margin-top: 20px;
+      padding: 21px 43px;
+      background: #ad1aaf;
+      font-weight: 500;
+      font-size: 22px;
+      border: 1px solid #ad1aaf;
+      transition: 0.5s;
+      cursor: pointer;
+
+      &:hover {
+        background: transparent;
+      }
+    }
+  }
+}

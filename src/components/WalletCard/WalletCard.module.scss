@@ -1,0 +1,25 @@
+.block {
+  max-width: 400px;
+  width: 100%;
+  padding: 34px;
+  border-radius: 15px;
+  // backdrop-filter: blur(20px);
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.3) 0%,
+    rgba(255, 255, 255, 0.3) 100%
+  );
+
+  .box {
+    border-radius: 50%;
+    // backdrop-filter: blur(20px);
+    margin-bottom: 34px;
+
+    .img {
+      padding: 44px 44px;
+      width: 300px;
+      height: 300px;
+    }
+
+  }
+}

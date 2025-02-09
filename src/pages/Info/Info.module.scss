@@ -1,0 +1,51 @@
+.info {
+  padding: 190px 0;
+
+  .title {
+    font-size: 64px;
+    line-height: 203%;
+    text-align: center;
+  }
+
+  .container {
+    max-width: 680px;
+    width: 100%;
+    margin: 0 auto;
+    border: 1px solid #ad1aaf;
+    border-radius: 15px;
+    padding: 7px 10px;
+    margin-top: 45px;
+    display: flex;
+
+    .inpText {
+      font-family: var(--second-family);
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 148%;
+      color: #a48ea9;
+      background-color: transparent;
+      border: none;
+      outline: none;
+      padding: 23px 23px 23px 53px;
+      width: 100%;
+
+      &::placeholder {
+        color: #a48ea9;
+      }
+    }
+
+    .btn {
+      border-radius: 15px;
+      padding: 35px 20px;
+      width: 90px;
+      height: 82px;
+      background: #ad1aaf;
+      transition: 0.5s;
+      cursor: pointer;
+
+      &:hover {
+        background: #a48ea9;
+      }
+    }
+  }
+}

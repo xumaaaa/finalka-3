@@ -1,0 +1,129 @@
+.formUser {
+  .form {
+    max-width: 1533px;
+    width: 100%;
+    margin: 122px auto 85px;
+
+    .container_1 {
+      max-width: 216px;
+      width: 100%;
+      margin: 0 auto;
+      position: relative;
+      top: -210px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+
+      .text {
+        font-family: var(--second-family);
+        font-size: 25px;
+        text-transform: capitalize;
+        margin-top: 47px;
+      }
+    }
+
+    .container_2 {
+      .title {
+        font-family: var(--second-family);
+        font-weight: 300;
+        font-size: 30px;
+        text-transform: capitalize;
+        margin-bottom: 62px;
+      }
+
+      .line {
+        border-color: rgba(167, 167, 167, 0.4);
+        width: 95%;
+        margin: 0 auto 101px;
+      }
+    }
+
+    .container_3 {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 30px;
+      margin-bottom: 65px;
+
+      @media (max-width: 1390px) {
+        justify-content: center;
+      }
+
+      .block {
+        max-width: 680px;
+        width: 100%;
+
+        .subtitle {
+          font-family: var(--second-family);
+          font-weight: 300;
+          font-size: 25px;
+          margin-bottom: 42px;
+        }
+
+        .label {
+          border: 1px solid rgba(167, 167, 167, 0.4);
+          border-radius: 15px;
+          max-width: 680px;
+          width: 100%;
+          display: flex;
+
+          .inp {
+            padding: 33px 38px 39px;
+            background-color: transparent;
+            border: none;
+            width: 100%;
+            outline: none;
+            font-family: var(--second-family);
+            font-weight: 300;
+            font-size: 20px;
+          }
+        }
+      }
+    }
+
+    .container_4 {
+      display: flex;
+      flex-direction: column;
+
+      .subtitle {
+        font-family: var(--second-family);
+        font-weight: 300;
+        font-size: 25px;
+      }
+
+      .textarea {
+        border: 1px solid rgba(167, 167, 167, 0.4);
+        border-radius: 15px;
+        width: 100%;
+        padding: 33px 38px 39px;
+        background-color: transparent;
+        width: 100%;
+        outline: none;
+        font-family: var(--second-family);
+        font-weight: 300;
+        font-size: 20px;
+        margin: 42px 0 65px;
+        height: 386px;
+        resize: none;
+      }
+
+      .btn {
+        width: 260px;
+        padding: 21px 43px;
+        background: #ad1aaf;
+        font-weight: 500;
+        font-size: 22px;
+        border: 1px solid #ad1aaf;
+        transition: 0.5s;
+        cursor: pointer;
+        align-self: flex-end;
+
+        &:hover {
+          background: transparent;
+        }
+      }
+    }
+  }
+}

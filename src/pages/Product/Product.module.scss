@@ -1,0 +1,44 @@
+.product {
+  max-width: 1110px;
+  width: 100%;
+  margin: 0 auto;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 30px;
+
+    @media (max-width: 750px) {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+
+  .btn {
+    border: none;
+    border-radius: 10px;
+    padding: 13px 86px;
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.5);
+    background: #101010;
+    font-weight: 500;
+    font-size: 15px;
+    text-align: center;
+    color: #fff;
+    transition: 0.5s;
+    margin-top: 23px;
+    display: block;
+    cursor: pointer;
+
+    &:hover {
+      box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+      background: #fff;
+      color: #101010;
+    }
+
+    @media (max-width: 750px) {
+      margin: 23px auto 0;
+      padding: 13px 120px;
+    }
+  }
+}
